@@ -45,7 +45,11 @@ class GerenciadorCSV(GerenciadorArquivos):
         return [f for f in os.listdir(self.diretorio_base) if f.endswith('.csv')]
 
 
+<<<<<<< HEAD
 
+=======
+# Exemplo de uso:
+>>>>>>> 91b48bd (0001: ajuste)
 if __name__ == "__main__":
     # Caminho da pasta de Downloads (substitua conforme necessário)
     pasta_downloads = os.path.expanduser("~/Downloads")
